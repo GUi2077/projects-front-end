@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, rgb(176, 92, 255), rgb(148, 34, 255));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    background-color: white;
+    max-width: 750px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #063a25c2;
+}
+
+h1 {
+    color: rgb(90, 0, 163);
+    background-color: rgb(235, 213, 255);
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    color: rgb(61, 0, 110);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(36, 0, 66);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(199, 131, 255);
+}
+
+img {
+    border: 3px;
+    border-style: solid;
+}
+
+#volta {
+    border-style: hidden;
+}
+
+div {
+    text-align: center;
+}
+
+.centraliza {
+    text-align: center;
+}
